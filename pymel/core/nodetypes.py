@@ -49218,7 +49218,7 @@ class WtAddMatrix(DependNode):
         return res
 
 class addDL(ShadingDependNode):
-    __melnode__ = 'crossProductDL'
+    __melnode__ = 'addDL'
     __slots__ = ()
 
 class crossProductDL(ShadingDependNode):
